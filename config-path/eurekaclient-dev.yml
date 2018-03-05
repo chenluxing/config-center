@@ -2,3 +2,4 @@ demo:
   user:
     name: 张三丰
     address: 浙江杭州
+content: hello config!
