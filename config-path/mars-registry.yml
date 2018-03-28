@@ -1,0 +1,12 @@
+server:
+  port: 18810
+
+spring:
+  application:
+    name: mars-registry
+    
+mars:
+  swagger:
+    title: Mars Cloud
+    desc: 网关RESTful接口说明文档
+    version: 1.0

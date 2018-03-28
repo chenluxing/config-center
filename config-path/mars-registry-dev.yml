@@ -1,0 +1,12 @@
+eureka:
+  instance:
+    #health-check-url-path: ${management.context-path}/health
+    #status-page-url-path: ${management.context-path}/info
+    #app-group-name: ec
+    appname: ${spring.application.name}
+  client:
+    serviceUrl:
+      defaultZone: http://mars:mars1qasw2@localhost:18800/eureka/  #注册中心地址
+
+#zuul:
+#  retryable: false    # 全局关闭重试机制

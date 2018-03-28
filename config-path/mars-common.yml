@@ -1,0 +1,12 @@
+server:
+  port: 18830
+
+spring:
+  application:
+    name: mars-common
+
+mars:
+  swagger:
+    title: Mars Cloud
+    desc: Common RESTful接口说明文档
+    version: 1.0
