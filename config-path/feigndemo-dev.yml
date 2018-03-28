@@ -1,0 +1,6 @@
+demo:
+  oauth2:
+    client:
+      accessTokenUrl: http://oauth2-demo/oauth/token
+      clientId: client_2
+      clientSecret: 123456

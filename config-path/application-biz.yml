@@ -1,0 +1,12 @@
+server:
+  port: 18890
+
+spring:
+  application:
+    name: mars-biz
+
+mars:
+  swagger:
+    title: Mars Cloud
+    desc: Biz RESTful接口说明文档
+    version: 1.0
