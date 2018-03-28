@@ -1,0 +1,12 @@
+server:
+  port: 18810
+
+spring:
+  application:
+    name: mars-gateway
+
+mars:
+  swagger:
+    title: Mars Cloud
+    desc: GateWay RESTful接口说明文档
+    version: 1.0
