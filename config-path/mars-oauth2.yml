@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: mars-common
+    name: mars-oauth2
     
 security:
   oauth2:
@@ -13,5 +13,5 @@ security:
 mars:
   swagger:
     title: Mars Cloud
-    desc: Common RESTful接口说明文档
+    desc: Oauth2 RESTful接口说明文档
     version: 1.0
