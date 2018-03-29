@@ -6,7 +6,7 @@ eureka:
     appname: ${spring.application.name}
   client:
     serviceUrl:
-      defaultZone: http://mars:mars1qasw2@localhost:18800/eureka/  #注册中心地址
+      defaultZone: http://localhost:18800/eureka/  #注册中心地址
 
 #zuul:
 #  retryable: false    # 全局关闭重试机制
