@@ -1,12 +1,12 @@
 server:
-  port: 18800
+  port: 18820
 
 spring:
   application:
-    name: mars-registry
-    
+    name: mars-common
+
 mars:
   swagger:
     title: Mars Cloud
-    desc: 网关RESTful接口说明文档
+    desc: Common RESTful接口说明文档
     version: 1.0
