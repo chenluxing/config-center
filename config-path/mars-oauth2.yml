@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: mars-common
+    
+security:
+  oauth2:
+    resource:
+      filter-order: 3
 
 mars:
   swagger:
