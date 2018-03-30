@@ -8,7 +8,7 @@ spring:
 mars:
   swagger:
     title: Mars Cloud
-    desc: Biz RESTful接口说明文档
+    desc: TASK RESTful接口说明文档
     version: 1.0
   oauth2:
     client:

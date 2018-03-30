@@ -1,14 +1,10 @@
 server:
   port: 18840
 
-spring:
-  application:
-    name: mars-user
-
 mars:
   swagger:
     title: Mars Cloud
-    desc: Biz RESTful接口说明文档
+    desc: USER RESTful接口说明文档
     version: 1.0
   oauth2:
     client:
