@@ -8,11 +8,11 @@ spring:
 mars:
   swagger:
     title: Mars Cloud
-    desc: Common RESTful接口说明文档
+    desc: Biz RESTful接口说明文档
     version: 1.0
   oauth2:
-  	client:
-  	  tokenServiceId: mars-oauth2
-  	  clientId: client_service
-  	  clientSecret: 1qasw2zxc
-  	  scope: scope_all
+    client:
+      tokenServiceId: mars-oauth2
+      clientId: client_service
+      clientSecret: 1qasw2zxc
+      scope: scope_all
