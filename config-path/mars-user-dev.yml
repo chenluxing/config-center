@@ -6,22 +6,31 @@ eureka:
       defaultZone: http://localhost:18800/eureka/  #注册中心地址
 
 spring:
-  # 使用druid数据源
-  type: com.alibaba.druid.pool.DruidDataSource
-  driver-class-name: com.mysql.jdbc.Driver
-  url: jdbc:mysql://192.168.0.100:3307/bc_mars?useUnicode=true&characterEncoding=UTF-8&useSSL=false
-  username: root
-  password: 123456
-  name: druid
-  druid:
-    min-idle: 1000
-    max-active: 2000
-    max-wait: 6000
-    initial-size: 5
+  datasource:
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.0.100:3307/bc_mars?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 123456
+    name: druid
+    druid:
+      min-idle: 1000
+      max-active: 2000
+      max-wait: 6000
+      initial-size: 5
   redis:
     host: 192.168.0.101
     port: 6379
     password: '000000'
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: false
+  supportMethodsArguments: true
+  params: count=countSql
+  offsetAsPageNum: true
+  rowBoundsWithCount: true
 
 mars:
   swagger:
