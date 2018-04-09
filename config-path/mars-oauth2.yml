@@ -15,6 +15,7 @@ mars:
     title: Mars Cloud
     desc: OAUTH2 RESTful接口说明文档
     version: 1.0
+    basePackage: com.bc.mars.oauth
   oauth2:
     client:
       accessTokenUri: http://mars-oauth2/oauth/token

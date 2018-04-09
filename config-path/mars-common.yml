@@ -10,6 +10,7 @@ mars:
     title: Mars Cloud
     desc: COMMON RESTful接口说明文档
     version: 1.0
+    basePackage: com.bc.mars.common
   oauth2:
     client:
       tokenServiceId: mars-oauth2

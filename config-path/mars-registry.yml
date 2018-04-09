@@ -10,3 +10,4 @@ mars:
     title: Mars Cloud
     desc: 网关RESTful接口说明文档
     version: 1.0
+    basePackage: com.bc.mars.registry
