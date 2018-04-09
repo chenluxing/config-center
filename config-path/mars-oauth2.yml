@@ -17,6 +17,7 @@ mars:
     version: 1.0
   oauth2:
     client:
+      accessTokenUri: http://mars-oauth2/oauth/token
       tokenServiceId: mars-oauth2
       clientId: client_service
       clientSecret: 1qasw2zxc
